@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7D0535E2B659C720020CE31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D0535D2B659C720020CE31 /* AppDelegate.swift */; };
+		D7D053602B659C720020CE31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D0535F2B659C720020CE31 /* SceneDelegate.swift */; };
+		D7D053622B659C720020CE31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D053612B659C720020CE31 /* ViewController.swift */; };
+		D7D053652B659C720020CE31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7D053632B659C720020CE31 /* Main.storyboard */; };
+		D7D053672B659C750020CE31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7D053662B659C750020CE31 /* Assets.xcassets */; };
+		D7D0536A2B659C750020CE31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7D053682B659C750020CE31 /* LaunchScreen.storyboard */; };
+		D7D053742B65ACE70020CE31 /* Create AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D053732B65ACE70020CE31 /* Create AccountViewController.swift */; };
+		D7D053762B65B6140020CE31 /* Gather Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D053752B65B6140020CE31 /* Gather Data.swift */; };
+		D7D0537A2B65C2110020CE31 /* My Profile ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D053792B65C2110020CE31 /* My Profile ViewController.swift */; };
+		D7D0537C2B65C2300020CE31 /* My Stocks View Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D0537B2B65C2300020CE31 /* My Stocks View Controller.swift */; };
+		D7D0537E2B65C2590020CE31 /* Report View Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D0537D2B65C2590020CE31 /* Report View Controller.swift */; };
+		EA9932CD2B66881E009DE8A7 /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = EA9932CC2B66881E009DE8A7 /* PythonKit */; };
+		EA9932D02B668AA1009DE8A7 /* PythonCode.py in Resources */ = {isa = PBXBuildFile; fileRef = EA9932CF2B668AA1009DE8A7 /* PythonCode.py */; };
+		EA9932D22B668AB7009DE8A7 /* RunPythonCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9932D12B668AB7009DE8A7 /* RunPythonCode.swift */; };
+		EA9932D42B668C6D009DE8A7 /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = EA9932D32B668C6D009DE8A7 /* PythonKit */; };
+		EA9932D62B669E89009DE8A7 /* Output.txt in Resources */ = {isa = PBXBuildFile; fileRef = EA9932D52B669E89009DE8A7 /* Output.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D7D0535A2B659C720020CE31 /* Stock Sense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stock Sense.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7D0535D2B659C720020CE31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7D0535F2B659C720020CE31 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D7D053612B659C720020CE31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7D053642B659C720020CE31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7D053662B659C750020CE31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7D053692B659C750020CE31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7D0536B2B659C750020CE31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7D053732B65ACE70020CE31 /* Create AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Create AccountViewController.swift"; sourceTree = "<group>"; };
+		D7D053752B65B6140020CE31 /* Gather Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Gather Data.swift"; sourceTree = "<group>"; };
+		D7D053792B65C2110020CE31 /* My Profile ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "My Profile ViewController.swift"; sourceTree = "<group>"; };
+		D7D0537B2B65C2300020CE31 /* My Stocks View Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "My Stocks View Controller.swift"; sourceTree = "<group>"; };
+		D7D0537D2B65C2590020CE31 /* Report View Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Report View Controller.swift"; sourceTree = "<group>"; };
+		EA9932CE2B6689FA009DE8A7 /* Stock Sense.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Stock Sense.entitlements"; sourceTree = "<group>"; };
+		EA9932CF2B668AA1009DE8A7 /* PythonCode.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = PythonCode.py; sourceTree = "<group>"; };
+		EA9932D12B668AB7009DE8A7 /* RunPythonCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunPythonCode.swift; sourceTree = "<group>"; };
+		EA9932D52B669E89009DE8A7 /* Output.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Output.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7D053572B659C720020CE31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9932CD2B66881E009DE8A7 /* PythonKit in Frameworks */,
+				EA9932D42B668C6D009DE8A7 /* PythonKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7D053512B659C720020CE31 = {
+			isa = PBXGroup;
+			children = (
+				D7D0535C2B659C720020CE31 /* Stock Sense */,
+				D7D0535B2B659C720020CE31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7D0535B2B659C720020CE31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7D0535A2B659C720020CE31 /* Stock Sense.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7D0535C2B659C720020CE31 /* Stock Sense */ = {
+			isa = PBXGroup;
+			children = (
+				EA9932CE2B6689FA009DE8A7 /* Stock Sense.entitlements */,
+				D7D0535D2B659C720020CE31 /* AppDelegate.swift */,
+				D7D0535F2B659C720020CE31 /* SceneDelegate.swift */,
+				D7D053612B659C720020CE31 /* ViewController.swift */,
+				D7D053732B65ACE70020CE31 /* Create AccountViewController.swift */,
+				D7D053632B659C720020CE31 /* Main.storyboard */,
+				EA9932CF2B668AA1009DE8A7 /* PythonCode.py */,
+				EA9932D52B669E89009DE8A7 /* Output.txt */,
+				EA9932D12B668AB7009DE8A7 /* RunPythonCode.swift */,
+				D7D0537B2B65C2300020CE31 /* My Stocks View Controller.swift */,
+				D7D0537D2B65C2590020CE31 /* Report View Controller.swift */,
+				D7D053792B65C2110020CE31 /* My Profile ViewController.swift */,
+				D7D053752B65B6140020CE31 /* Gather Data.swift */,
+				D7D053662B659C750020CE31 /* Assets.xcassets */,
+				D7D053682B659C750020CE31 /* LaunchScreen.storyboard */,
+				D7D0536B2B659C750020CE31 /* Info.plist */,
+			);
+			path = "Stock Sense";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7D053592B659C720020CE31 /* Stock Sense */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7D0536E2B659C750020CE31 /* Build configuration list for PBXNativeTarget "Stock Sense" */;
+			buildPhases = (
+				D7D053562B659C720020CE31 /* Sources */,
+				D7D053572B659C720020CE31 /* Frameworks */,
+				D7D053582B659C720020CE31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stock Sense";
+			packageProductDependencies = (
+				EA9932CC2B66881E009DE8A7 /* PythonKit */,
+				EA9932D32B668C6D009DE8A7 /* PythonKit */,
+			);
+			productName = "Stock Sense";
+			productReference = D7D0535A2B659C720020CE31 /* Stock Sense.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7D053522B659C720020CE31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D7D053592B659C720020CE31 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = D7D053552B659C720020CE31 /* Build configuration list for PBXProject "Stock Sense" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7D053512B659C720020CE31;
+			packageReferences = (
+				EA9932CB2B66881E009DE8A7 /* XCRemoteSwiftPackageReference "PythonKit" */,
+			);
+			productRefGroup = D7D0535B2B659C720020CE31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7D053592B659C720020CE31 /* Stock Sense */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7D053582B659C720020CE31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D0536A2B659C750020CE31 /* LaunchScreen.storyboard in Resources */,
+				EA9932D62B669E89009DE8A7 /* Output.txt in Resources */,
+				EA9932D02B668AA1009DE8A7 /* PythonCode.py in Resources */,
+				D7D053672B659C750020CE31 /* Assets.xcassets in Resources */,
+				D7D053652B659C720020CE31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7D053562B659C720020CE31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D053622B659C720020CE31 /* ViewController.swift in Sources */,
+				D7D053742B65ACE70020CE31 /* Create AccountViewController.swift in Sources */,
+				D7D0537E2B65C2590020CE31 /* Report View Controller.swift in Sources */,
+				EA9932D22B668AB7009DE8A7 /* RunPythonCode.swift in Sources */,
+				D7D0537C2B65C2300020CE31 /* My Stocks View Controller.swift in Sources */,
+				D7D0537A2B65C2110020CE31 /* My Profile ViewController.swift in Sources */,
+				D7D053762B65B6140020CE31 /* Gather Data.swift in Sources */,
+				D7D0535E2B659C720020CE31 /* AppDelegate.swift in Sources */,
+				D7D053602B659C720020CE31 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D7D053632B659C720020CE31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7D053642B659C720020CE31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7D053682B659C750020CE31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7D053692B659C750020CE31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7D0536C2B659C750020CE31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7D0536D2B659C750020CE31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7D0536F2B659C750020CE31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Stock Sense/Stock Sense.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NSFMFQMF3K;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Stock Sense/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Stock-Sense";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7D053702B659C750020CE31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Stock Sense/Stock Sense.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NSFMFQMF3K;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Stock Sense/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Stock-Sense";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7D053552B659C720020CE31 /* Build configuration list for PBXProject "Stock Sense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7D0536C2B659C750020CE31 /* Debug */,
+				D7D0536D2B659C750020CE31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7D0536E2B659C750020CE31 /* Build configuration list for PBXNativeTarget "Stock Sense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7D0536F2B659C750020CE31 /* Debug */,
+				D7D053702B659C750020CE31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EA9932CB2B66881E009DE8A7 /* XCRemoteSwiftPackageReference "PythonKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pvieito/PythonKit.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EA9932CC2B66881E009DE8A7 /* PythonKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA9932CB2B66881E009DE8A7 /* XCRemoteSwiftPackageReference "PythonKit" */;
+			productName = PythonKit;
+		};
+		EA9932D32B668C6D009DE8A7 /* PythonKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA9932CB2B66881E009DE8A7 /* XCRemoteSwiftPackageReference "PythonKit" */;
+			productName = PythonKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D7D053522B659C720020CE31 /* Project object */;
+}
